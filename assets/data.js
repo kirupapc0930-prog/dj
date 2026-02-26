@@ -180,6 +180,12 @@ window.DUBAI_TRONICS_DATA = (function () {
         "https://images.unsplash.com/photo-1560250097-0b93528c311a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwcm9mZXNzaW9uYWwlMjBtYW58ZW58MHx8fHwxNzc0ODUxNDYwfDA&ixlib=rb-4.1.0&q=80&w=1080",
       imageHint: "professional man",
     },
+    {
+  id: "avatar-2",
+  description: "sarvesh profile photo",
+  imageUrl: "assets/images/sarvesh.jpg",
+  imageHint: "person portrait",
+},
   ];
 
   const imageMap = {};
@@ -444,9 +450,10 @@ window.DUBAI_TRONICS_DATA = (function () {
       feedback:
         "Amazing service and incredibly fast delivery! The iPhone 17 is a masterpiece. Dubai Tronics is my go-to for gadgets.",
     },
-    id: "review-1",
-      userName: "Ali Khan",
-      userImageId: "avatar-1",
+    {
+      id: "avatar-2",
+      userName: "Sarvesh",
+      userImageId: "avatar-sarvesh",
       rating: 5,
       feedback:
         "Amazing service and incredibly fast delivery! The iPhone 17 is a masterpiece. Dubai Tronics is my go-to for gadgets.",
