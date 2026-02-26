@@ -195,7 +195,7 @@ window.DUBAI_TRONICS_DATA = (function () {
     {
   id: "avatar-pursoth",
   description: "pursoth profile photo",
-  imageUrl: "assets/images/pursoth.jpg",
+  imageUrl: "assets/images/pursoth.jpg?v=1",
   imageHint: "person portrait",
 },
   ];
