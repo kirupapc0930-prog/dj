@@ -191,6 +191,12 @@ window.DUBAI_TRONICS_DATA = (function () {
   description: "mohan profile photo",
   imageUrl: "assets/images/mohan.jpg?v=1",
   imageHint: "person portrait",
+    },
+    {
+  id: "avatar-pursoth",
+  description: "pursoth profile photo",
+  imageUrl: "assets/images/pursoth.jpg",
+  imageHint: "person portrait",
 },
   ];
 
@@ -465,9 +471,9 @@ window.DUBAI_TRONICS_DATA = (function () {
         "Amazing service and incredibly fast delivery! The iPhone 17 is a masterpiece. Dubai Tronics is my go-to for gadgets.",
     },
     {
-      id: "review-3",
-      userName: "John Smith",
-      userImageId: "avatar-3",
+      id: "review-",
+      userName: "Pursoth",
+      userImageId: "avatar-pursoth",
       rating: 5,
       feedback:
         "I am so impressed with the quality of the Sony headphones. The noise cancellation is out of this world. Highly recommend!",
