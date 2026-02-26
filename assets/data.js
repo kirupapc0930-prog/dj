@@ -189,7 +189,7 @@ window.DUBAI_TRONICS_DATA = (function () {
     {
   id: "avatar-mohan",
   description: "mohan profile photo",
-  imageUrl: "assets/images/mohan.jpg",
+  imageUrl: "assets/images/mohan.jpg?v=1",
   imageHint: "person portrait",
 },
   ];
