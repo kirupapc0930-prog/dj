@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My wishlist – Dubai Tronics</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body data-page="wishlist">
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html" class="brand" aria-label="Dubai Tronics home">
+          <span class="brand-mark">DT</span>
+          <span class="brand-text">
+            <span class="brand-name">Dubai Tronics</span>
+            <span class="brand-tagline">Electrify your everyday</span>
+          </span>
+        </a>
+        <nav class="header-actions" aria-label="Main navigation">
+          <a href="profile.html" class="nav-link">
+            <span class="nav-link-icon">👤</span>
+            <span>Profile</span>
+          </a>
+          <a href="cart.html" class="btn btn-outline btn-icon cart-indicator" aria-label="Cart">
+            <span>🛒</span>
+            <span class="cart-count-pill" data-cart-count></span>
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <div class="page">
+      <main>
+        <section class="section">
+          <div class="container">
+            <article class="card">
+              <header class="section-header">
+                <div>
+                  <div class="section-kicker">Wishlist</div>
+                  <h1 class="section-title">Saved for later</h1>
+                  <p class="section-subtitle">
+                    This demo keeps wishlist items static, but mirrors the page available in the original app.
+                  </p>
+                </div>
+              </header>
+              <div class="empty-state text-center">
+                <div class="empty-icon">♥</div>
+                <h2 class="section-title">Nothing saved yet</h2>
+                <p class="section-subtitle mt-sm">
+                  Browse featured products on the home page and imagine saving your favorites here.
+                </p>
+                <div class="mt-md">
+                  <a href="index.html" class="btn btn-primary">Discover products</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <footer class="site-footer">
+      <div class="container footer-bottom">
+        <span>© 2025 Dubai Tronics.</span>
+      </div>
+    </footer>
+
+    <script src="assets/data.js"></script>
+    <script src="assets/main.js"></script>
+  </body>
+</html>
+
