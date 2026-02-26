@@ -185,6 +185,12 @@ window.DUBAI_TRONICS_DATA = (function () {
   description: "sarvesh profile photo",
   imageUrl: "assets/images/sarvesh.jpg",
   imageHint: "person portrait",
+    },
+    {
+  id: "avatar-mohan",
+  description: "mohan profile photo",
+  imageUrl: "assets/images/mohan.jpg",
+  imageHint: "person portrait",
 },
   ];
 
@@ -444,8 +450,8 @@ window.DUBAI_TRONICS_DATA = (function () {
   const reviews = [
     {
       id: "review-1",
-      userName: "Ali Khan",
-      userImageId: "avatar-1",
+      userName: "Mohan",
+      userImageId: "avatar-mohan",
       rating: 5,
       feedback:
         "Amazing service and incredibly fast delivery! The iPhone 17 is a masterpiece. Dubai Tronics is my go-to for gadgets.",
