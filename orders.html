@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My orders – Dubai Tronics</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body data-page="orders">
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html" class="brand" aria-label="Dubai Tronics home">
+          <span class="brand-mark">DT</span>
+          <span class="brand-text">
+            <span class="brand-name">Dubai Tronics</span>
+            <span class="brand-tagline">Electrify your everyday</span>
+          </span>
+        </a>
+        <nav class="header-actions" aria-label="Main navigation">
+          <a href="wishlist.html" class="nav-link">
+            <span class="nav-link-icon">♥</span>
+            <span>Wishlist</span>
+          </a>
+          <a href="cart.html" class="btn btn-outline btn-icon cart-indicator" aria-label="Cart">
+            <span>🛒</span>
+            <span class="cart-count-pill" data-cart-count></span>
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <div class="page">
+      <main>
+        <section class="section">
+          <div class="container">
+            <article class="card">
+              <header class="section-header">
+                <div>
+                  <div class="section-kicker">Orders</div>
+                  <h1 class="section-title">My orders</h1>
+                  <p class="section-subtitle">
+                    This static demo shows placeholder copy. In a real app, your recent orders would appear here.
+                  </p>
+                </div>
+              </header>
+              <div class="empty-state text-center">
+                <div class="empty-icon">📦</div>
+                <h2 class="section-title">No orders yet</h2>
+                <p class="section-subtitle mt-sm">
+                  Once you place an order, you’ll be able to track it from this page.
+                </p>
+                <div class="mt-md">
+                  <a href="index.html" class="btn btn-primary">Start shopping</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <footer class="site-footer">
+      <div class="container footer-bottom">
+        <span>© 2025 Dubai Tronics.</span>
+      </div>
+    </footer>
+
+    <script src="assets/data.js"></script>
+    <script src="assets/main.js"></script>
+  </body>
+</html>
+

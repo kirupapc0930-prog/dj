@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dubai Tronics - Electrify Your Life With Cutting-Edge Gadgets</title>
+    <meta
+      name="description"
+      content="Your one-stop shop for the latest electronics and gadgets in Dubai."
+    />
+    <meta
+      name="keywords"
+      content="electronics, gadgets, dubai, laptops, smartphones, deals"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body data-page="home">
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html" class="brand" aria-label="Dubai Tronics home">
+          <span class="brand-mark">DT</span>
+          <span class="brand-text">
+            <span class="brand-name">Dubai Tronics</span>
+            <span class="brand-tagline">Electrify your everyday</span>
+          </span>
+        </a>
+        <div class="header-search">
+          <form class="search-input" role="search">
+            <span class="search-icon">🔍</span>
+            <input
+              type="search"
+              placeholder="Search for products, brands and more"
+              aria-label="Search products"
+            />
+          </form>
+        </div>
+        <nav class="header-actions" aria-label="Main navigation">
+          <a href="wishlist.html" class="nav-link">
+            <span class="nav-link-icon">♥</span>
+            <span>Wishlist</span>
+          </a>
+          <a href="profile.html" class="nav-link">
+            <span class="nav-link-icon">👤</span>
+            <span>Profile</span>
+          </a>
+          <a href="login.html" class="btn btn-outline" style="display: none;">
+            Login / Sign up
+          </a>
+          <a href="cart.html" class="btn btn-outline btn-icon cart-indicator" aria-label="Cart">
+            <span>🛒</span>
+            <span class="cart-count-pill" data-cart-count></span>
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <div class="page">
+      <main>
+        <section class="hero">
+          <div class="container hero-inner">
+            <div class="hero-copy">
+              <div class="hero-eyebrow">
+                <span class="chip">
+                  <span class="chip-dot"></span>
+                  <span>Same‑day delivery in Dubai</span>
+                </span>
+                <span class="hero-eyebrow-text">
+                  Trusted by over <strong>30,000+</strong> gadget lovers
+                </span>
+              </div>
+              <h1 class="hero-title">
+                Electrify your life with <span>cutting‑edge gadgets</span>.
+              </h1>
+              <p class="hero-subtitle">
+                From flagship phones and gaming laptops to everyday accessories,
+                Dubai Tronics curates the very best tech for work, play, and everything
+                in between.
+              </p>
+              <div class="hero-cta-row">
+                <a href="#featured" class="btn btn-primary">
+                  <span>Shop featured deals</span>
+                </a>
+                <a href="cart.html" class="btn btn-outline">
+                  View cart
+                </a>
+              </div>
+              <div class="hero-stats">
+                <div class="hero-stat">
+                  <strong>2‑hour</strong>
+                  <span>Express delivery windows</span>
+                </div>
+                <div class="hero-stat">
+                  <strong>4.8★</strong>
+                  <span>Average customer rating</span>
+                </div>
+              </div>
+              <div class="hero-badge-row">
+                <span class="hero-badge">Pay in 3 installments</span>
+                <span class="hero-badge">Genuine UAE warranty</span>
+                <span class="hero-badge">Easy 7‑day returns</span>
+              </div>
+            </div>
+            <div class="hero-media">
+              <div data-hero-banner></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="container">
+            <header class="section-header">
+              <div>
+                <div class="section-kicker">Browse by category</div>
+                <h2 class="section-title">Find your next upgrade</h2>
+              </div>
+            </header>
+            <div data-categories></div>
+          </div>
+        </section>
+
+        <hr class="divider" />
+
+        <section id="featured" class="section">
+          <div class="container">
+            <header class="section-header">
+              <div>
+                <div class="section-kicker">Featured picks</div>
+                <h2 class="section-title">Hand‑picked hero products</h2>
+                <p class="section-subtitle">
+                  Flagship phones, creator‑grade laptops, and audiophile favorites loved by our shoppers.
+                </p>
+              </div>
+              <span class="badge-soft">Updated daily using live demand data</span>
+            </header>
+            <div data-featured-products></div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="container">
+            <header class="section-header">
+              <div>
+                <div class="section-kicker">Today’s deals</div>
+                <h2 class="section-title">Limited‑time price drops</h2>
+              </div>
+              <span class="badge badge-sale">Up to 30% off</span>
+            </header>
+            <div data-deals></div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="container">
+            <div class="grid grid-2">
+              <section>
+                <header class="section-header">
+                  <div>
+                    <div class="section-kicker">Customer stories</div>
+                    <h2 class="section-title">Loved across the UAE</h2>
+                  </div>
+                  <span class="pill">4.8★ average rating</span>
+                </header>
+                <div data-reviews></div>
+              </section>
+              <section>
+                <header class="section-header">
+                  <div>
+                    <div class="section-kicker">AI‑powered guidance</div>
+                    <h2 class="section-title">Smart recommendations</h2>
+                    <p class="section-subtitle">
+                      Get curated suggestions based on popularity, price drops, and real
+                      customer sentiment.
+                    </p>
+                  </div>
+                </header>
+                <div data-ai-recommendations></div>
+              </section>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-top">
+          <div>
+            <div class="brand">
+              <span class="brand-mark">DT</span>
+              <span class="brand-text">
+                <span class="brand-name">Dubai Tronics</span>
+                <span class="brand-tagline">Electrify your everyday</span>
+              </span>
+            </div>
+            <p class="section-subtitle mt-sm">
+              The easiest way to upgrade your setup with carefully curated tech, fast delivery,
+              and human support that actually cares.
+            </p>
+            <form class="footer-subscribe">
+              <input
+                type="email"
+                class="input"
+                placeholder="Get deals in your inbox"
+                aria-label="Email address"
+              />
+              <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+          </div>
+          <div>
+            <h3 class="footer-heading">Shop</h3>
+            <ul class="footer-list">
+              <li><a class="footer-link" href="#">Mobile Phones</a></li>
+              <li><a class="footer-link" href="#">Laptops</a></li>
+              <li><a class="footer-link" href="#">Headphones</a></li>
+              <li><a class="footer-link" href="#">Power Banks</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="footer-heading">Company</h3>
+            <ul class="footer-list">
+              <li><a class="footer-link" href="#">About</a></li>
+              <li><a class="footer-link" href="#">Careers</a></li>
+              <li><a class="footer-link" href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="footer-heading">Support</h3>
+            <ul class="footer-list">
+              <li><a class="footer-link" href="#">FAQ</a></li>
+              <li><a class="footer-link" href="#">Shipping &amp; Returns</a></li>
+              <li><a class="footer-link" href="#">Warranty</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>© 2025 Dubai Tronics. All rights reserved.</span>
+          <div class="social-row">
+            <a href="#" class="social-pill" aria-label="Twitter">𝕏</a>
+            <a href="#" class="social-pill" aria-label="GitHub">GH</a>
+            <a href="#" class="social-pill" aria-label="Instagram">IG</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/data.js"></script>
+    <script src="assets/main.js"></script>
+  </body>
+</html>
+

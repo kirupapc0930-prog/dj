@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sign up – Dubai Tronics</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body data-page="signup">
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html" class="brand" aria-label="Dubai Tronics home">
+          <span class="brand-mark">DT</span>
+          <span class="brand-text">
+            <span class="brand-name">Dubai Tronics</span>
+            <span class="brand-tagline">Electrify your everyday</span>
+          </span>
+        </a>
+        <nav class="header-actions" aria-label="Main navigation">
+          <a href="wishlist.html" class="nav-link">
+            <span class="nav-link-icon">♥</span>
+            <span>Wishlist</span>
+          </a>
+          <a href="profile.html" class="nav-link">
+            <span class="nav-link-icon">👤</span>
+            <span>Profile</span>
+          </a>
+          <a href="cart.html" class="btn btn-outline btn-icon cart-indicator" aria-label="Cart">
+            <span>🛒</span>
+            <span class="cart-count-pill" data-cart-count></span>
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <div class="page">
+      <main>
+        <div class="center-shell">
+          <section class="card auth-card">
+            <header class="auth-heading">
+              <div class="brand" style="justify-content: center; margin-bottom: 0.6rem;">
+                <span class="brand-mark">DT</span>
+              </div>
+              <h1>Create an account</h1>
+              <p>Save your details, sync your wishlist, and check out faster.</p>
+            </header>
+            <div class="stack-tight">
+              <div class="field">
+                <label class="field-label" for="signup-name">Name</label>
+                <input
+                  id="signup-name"
+                  type="text"
+                  class="input"
+                  placeholder="Jane Doe"
+                  autocomplete="name"
+                  required
+                />
+              </div>
+              <div class="field">
+                <label class="field-label" for="signup-email">Email</label>
+                <input
+                  id="signup-email"
+                  type="email"
+                  class="input"
+                  placeholder="you@example.com"
+                  autocomplete="email"
+                  required
+                />
+              </div>
+              <div class="field">
+                <label class="field-label" for="signup-password">Password</label>
+                <input
+                  id="signup-password"
+                  type="password"
+                  class="input"
+                  autocomplete="new-password"
+                  required
+                />
+              </div>
+              <button class="btn btn-primary mt-md" type="button">Create account</button>
+            </div>
+            <p class="auth-footer mt-md">
+              Already have an account?
+              <a class="link" href="login.html">Sign in</a>
+            </p>
+          </section>
+        </div>
+      </main>
+    </div>
+
+    <footer class="site-footer">
+      <div class="container footer-bottom">
+        <span>© 2025 Dubai Tronics.</span>
+      </div>
+    </footer>
+
+    <script src="assets/data.js"></script>
+    <script src="assets/main.js"></script>
+  </body>
+</html>
+

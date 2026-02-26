@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My profile – Dubai Tronics</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body data-page="profile">
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html" class="brand" aria-label="Dubai Tronics home">
+          <span class="brand-mark">DT</span>
+          <span class="brand-text">
+            <span class="brand-name">Dubai Tronics</span>
+            <span class="brand-tagline">Electrify your everyday</span>
+          </span>
+        </a>
+        <nav class="header-actions" aria-label="Main navigation">
+          <a href="wishlist.html" class="nav-link">
+            <span class="nav-link-icon">♥</span>
+            <span>Wishlist</span>
+          </a>
+          <a href="cart.html" class="btn btn-outline btn-icon cart-indicator" aria-label="Cart">
+            <span>🛒</span>
+            <span class="cart-count-pill" data-cart-count></span>
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <div class="page">
+      <main>
+        <section class="section">
+          <div class="container">
+            <article class="card">
+              <header class="section-header">
+                <div>
+                  <div class="section-kicker">Account</div>
+                  <h1 class="section-title">My profile</h1>
+                  <p class="section-subtitle">
+                    Manage your basic details. In a real deployment, this would be connected to an
+                    authentication system.
+                  </p>
+                </div>
+              </header>
+              <div class="grid grid-2">
+                <div class="stack-tight">
+                  <div class="field">
+                    <label class="field-label" for="profile-name">Name</label>
+                    <input id="profile-name" type="text" class="input" placeholder="Jane Doe" />
+                  </div>
+                  <div class="field">
+                    <label class="field-label" for="profile-email">Email</label>
+                    <input
+                      id="profile-email"
+                      type="email"
+                      class="input"
+                      placeholder="you@example.com"
+                    />
+                  </div>
+                  <button class="btn btn-primary mt-md" type="button">Save changes</button>
+                </div>
+                <div class="stack-tight">
+                  <h2 class="section-title" style="font-size: 0.95rem;">Quick links</h2>
+                  <a href="orders.html" class="link">View orders →</a>
+                  <a href="wishlist.html" class="link">View wishlist →</a>
+                  <a href="cart.html" class="link">Go to cart →</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <footer class="site-footer">
+      <div class="container footer-bottom">
+        <span>© 2025 Dubai Tronics.</span>
+      </div>
+    </footer>
+
+    <script src="assets/data.js"></script>
+    <script src="assets/main.js"></script>
+  </body>
+</html>
+
