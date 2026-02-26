@@ -183,7 +183,7 @@ window.DUBAI_TRONICS_DATA = (function () {
     {
   id: "avatar-sarvesh",
   description: "sarvesh profile photo",
-  imageUrl: "/assets/images/sarvesh.jpg",
+  imageUrl: "assets/images/sarvesh.jpg",
   imageHint: "person portrait",
 },
   ];
